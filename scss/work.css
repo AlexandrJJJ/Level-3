@@ -1,0 +1,15 @@
+.work-container {
+  width: 100%;
+}
+.work-container .work-container__subcontainer {
+  height: 678px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.work-container .work-container__subcontainer img {
+  width: 378px;
+  height: 340px;
+  /* object-fit: contain; */
+}/*# sourceMappingURL=work.css.map */

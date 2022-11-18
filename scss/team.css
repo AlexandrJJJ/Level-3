@@ -1,0 +1,46 @@
+@charset "UTF-8";
+.team-container {
+  width: 100%;
+}
+.team-container .team-container__subcontainer {
+  width: 1170px;
+  margin: 0 auto;
+  margin-top: 114px;
+  display: flex;
+  justify-content: space-between;
+}
+.team-container .team-container__subcontainer section {
+  width: 270px;
+  height: 619px;
+  font-size: 0;
+  /* выше убрал отступы на картинках */
+  /* два действия выше не обязательны, если не убирать отступы в картинках */
+}
+.team-container .team-container__subcontainer section h5 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #2D3033;
+  height: 30px;
+  margin-top: 30px;
+}
+.team-container .team-container__subcontainer section p:first-of-type {
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #FF4343;
+  height: 21px;
+  margin-top: 5.29px;
+}
+.team-container .team-container__subcontainer section p:last-of-type {
+  font-weight: 400;
+  font-size: 18px;
+  color: #6C7279;
+  height: 168px;
+  margin: 17.86px 0 37.86px 0;
+}
+.team-container .team-container__subcontainer section img {
+  display: inline-flex;
+}
+.team-container .team-container__subcontainer section img:nth-of-type(3) {
+  margin: 0 5px 0 6px;
+}/*# sourceMappingURL=team.css.map */

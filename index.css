@@ -1,0 +1,358 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Raleway:wght@400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  outline: none;
+}
+
+.header-container {
+  background-image: url(../images/background-header-2.png), url(/..images/background-header.png);
+  background-size: cover;
+  height: 747px;
+}
+.header-container .header-container__navigation {
+  width: 1170px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-container .header-container__navigation button {
+  width: 134px;
+  height: 100px;
+  background: none;
+  border: none;
+  font-weight: 700;
+  font-size: 13px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.header-container .header-container__navigation button:hover {
+  border-bottom: 3px solid #BABBC5;
+}
+.header-container .header-container__navigation button:active {
+  color: #E71414;
+  border-bottom: 3px solid #E71414;
+}
+.header-container .header-container__subcontainer {
+  height: 647px;
+  margin: 0 auto;
+}
+.header-container .header-container__subcontainer .header-container__separator {
+  width: 1170px;
+  border: 0.5px solid #BABBC5;
+  margin: 0 auto;
+}
+.header-container .header-container__subcontainer h1 {
+  height: 150px;
+  font-weight: 900;
+  font-size: 64px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 130px;
+}
+.header-container .header-container__subcontainer h3 {
+  height: 56px;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 31.43px 0 82px 0;
+}
+.header-container .header-container__subcontainer button:not(nav button) {
+  display: block;
+  width: 370px;
+  height: 80px;
+  background: #FF4343;
+  font-weight: 900;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.header-container .header-container__subcontainer button:not(nav button):hover {
+  background: #E71414;
+}
+.header-container .header-container__subcontainer button:not(nav button):active {
+  background: #FF4343;
+  box-shadow: 4px 4px 30px #FF4343;
+}
+
+.features-container {
+  width: 100%;
+}
+.features-container .features-container__subcontainer {
+  width: 1170px;
+  height: 717px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 116px;
+}
+.features-container .features-container__subcontainer section {
+  width: 370px;
+  height: 305.43px;
+  margin: 0 auto;
+}
+.features-container .features-container__subcontainer section h4 {
+  height: 72px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 72px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2D3033;
+}
+.features-container .features-container__subcontainer section h5 {
+  height: 84px;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #6C7279;
+}
+.features-container .features-container__subcontainer section img {
+  display: block;
+  margin: 0 auto;
+}
+
+.work-container {
+  width: 100%;
+}
+.work-container .work-container__subcontainer {
+  height: 678px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.work-container .work-container__subcontainer img {
+  width: 378px;
+  height: 340px;
+  /* object-fit: contain; */
+}
+
+.team-container {
+  width: 100%;
+}
+.team-container .team-container__subcontainer {
+  width: 1170px;
+  margin: 0 auto;
+  margin-top: 114px;
+  display: flex;
+  justify-content: space-between;
+}
+.team-container .team-container__subcontainer section {
+  width: 270px;
+  height: 619px;
+  font-size: 0;
+  /* выше убрал отступы на картинках */
+  /* два действия выше не обязательны, если не убирать отступы в картинках */
+}
+.team-container .team-container__subcontainer section h5 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #2D3033;
+  height: 30px;
+  margin-top: 30px;
+}
+.team-container .team-container__subcontainer section p:first-of-type {
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #FF4343;
+  height: 21px;
+  margin-top: 5.29px;
+}
+.team-container .team-container__subcontainer section p:last-of-type {
+  font-weight: 400;
+  font-size: 18px;
+  color: #6C7279;
+  height: 168px;
+  margin: 17.86px 0 37.86px 0;
+}
+.team-container .team-container__subcontainer section img {
+  display: inline-flex;
+}
+.team-container .team-container__subcontainer section img:nth-of-type(3) {
+  margin: 0 5px 0 6px;
+}
+
+.testimonials-container {
+  margin-top: 114px;
+  height: 535px;
+}
+.testimonials-container .testimonials-container__subcontainer {
+  width: 1511px;
+  height: 490px;
+  display: flex;
+  margin: 0 auto;
+  background: #5C3249;
+}
+.testimonials-container .testimonials-container__subcontainer section:nth-of-type(1) {
+  width: 741px;
+  height: 490px;
+}
+.testimonials-container .testimonials-container__subcontainer section:nth-of-type(2) {
+  width: 471px;
+  height: 258px;
+  margin: 116px 170px 116px 129px;
+}
+.testimonials-container .testimonials-container__subcontainer h2 {
+  width: 471px;
+  height: 230px;
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-size: 36px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.testimonials-container .testimonials-container__subcontainer h6 {
+  width: 470px;
+  height: 28px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.testimonials-container .testimonials-container__circles img:not(:first-child) {
+  margin-left: 25px;
+}
+.testimonials-container .testimonials-container__circles {
+  margin-top: 31px;
+  display: flex;
+  justify-content: center;
+}
+
+.download-container {
+  width: 100%;
+  margin-top: 114px;
+}
+.download-container .download-container__subcontainer {
+  width: 1170px;
+  height: 224px;
+  margin: 0 auto;
+}
+.download-container .download-container__subcontainer h3 {
+  height: 70px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 70px;
+  text-align: center;
+}
+.download-container .download-container__subcontainer h5 {
+  height: 21px;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 50.14px;
+}
+.download-container .download-container__subcontainer button {
+  width: 370px;
+  height: 80px;
+  background: #FF4343;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  display: block;
+  margin: 0 auto;
+}
+.download-container .download-container__subcontainer button:hover {
+  background: #E71414;
+}
+.download-container .download-container__subcontainer button:active {
+  background: #FF4343;
+  box-shadow: 4px 4px 30px #FF4343;
+}
+
+.footer-container {
+  width: 100%;
+}
+.footer-container .footer-container__subcontainer {
+  width: 1511px;
+  height: 340px;
+  margin: 0 auto;
+  margin-top: 114px;
+}
+.footer-container .footer-container__subcontainer--down {
+  height: 90px;
+  background: #2C3154;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-container .footer-container__subcontainer--down h5 {
+  width: 370px;
+  height: 42px;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #808080;
+}
+.footer-container .footer-container__subcontainer--down span {
+  color: #FFFFFF;
+}
+.footer-container .footer-container__subcontainer--up {
+  height: 251px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #353C65;
+}
+.footer-container .footer-container__subcontainer--up h5 {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.footer-container .footer-container__subcontainer--up h6 {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.footer-container .footer-container__location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 370px;
+  height: 71px;
+}
+.footer-container .footer-container__share {
+  width: 370px;
+  height: 108.86px;
+  margin: 0 30px;
+}
+.footer-container .footer-container__share .footer-container__icons {
+  width: 170px;
+  height: 39px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 48.86px;
+}
+.footer-container .footer-container__about {
+  width: 370px;
+  height: 112.71px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=index.css.map */

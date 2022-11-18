@@ -1,0 +1,16 @@
+.work-container{
+    width: 100%;
+    .work-container__subcontainer{
+        height: 678px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 378px;
+            height: 340px;
+            // display: block;
+            /* object-fit: contain; */
+        }
+    }
+}

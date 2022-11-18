@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Raleway:wght@400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    outline: none;
+}
+
+@import "scss/header.scss";
+@import "scss/features.scss";
+@import "scss/work.scss";
+@import "scss/team.scss";
+@import "scss/testimonials.scss";
+@import "scss/download.scss";
+@import "scss/footer.scss";

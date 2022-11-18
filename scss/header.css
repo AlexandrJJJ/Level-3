@@ -1,0 +1,76 @@
+.header-container {
+  background-image: url(../images/background-header-2.png), url(../images/background-header.png);
+  background-size: cover;
+  height: 747px;
+}
+.header-container .header-container__navigation {
+  width: 1170px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-container .header-container__navigation button {
+  width: 134px;
+  height: 100px;
+  background: none;
+  border: none;
+  font-weight: 700;
+  font-size: 13px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.header-container .header-container__navigation button:hover {
+  border-bottom: 3px solid #BABBC5;
+}
+.header-container .header-container__navigation button:active {
+  color: #E71414;
+  border-bottom: 3px solid #E71414;
+}
+.header-container .header-container__subcontainer {
+  height: 647px;
+  margin: 0 auto;
+}
+.header-container .header-container__subcontainer .header-container__separator {
+  width: 1170px;
+  border: 0.5px solid #BABBC5;
+  margin: 0 auto;
+}
+.header-container .header-container__subcontainer h1 {
+  height: 150px;
+  font-weight: 900;
+  font-size: 64px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 130px;
+}
+.header-container .header-container__subcontainer h3 {
+  height: 56px;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 31.43px 0 82px 0;
+}
+.header-container .header-container__subcontainer button:not(nav button) {
+  display: block;
+  width: 370px;
+  height: 80px;
+  background: #FF4343;
+  font-weight: 900;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.header-container .header-container__subcontainer button:not(nav button):hover {
+  background: #E71414;
+}
+.header-container .header-container__subcontainer button:not(nav button):active {
+  background: #FF4343;
+  box-shadow: 4px 4px 30px #FF4343;
+}/*# sourceMappingURL=header.css.map */
