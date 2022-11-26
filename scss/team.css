@@ -1,10 +1,12 @@
 @charset "UTF-8";
 .team-container {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .team-container .team-container__subcontainer {
   width: 1170px;
-  margin: 0 auto;
   margin-top: 114px;
   display: flex;
   justify-content: space-between;
@@ -43,4 +45,89 @@
 }
 .team-container .team-container__subcontainer section img:nth-of-type(3) {
   margin: 0 5px 0 6px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 1023px) {
+  .team-container .team-container__subcontainer {
+    width: 984.08px;
+    margin-top: 78.22px;
+  }
+  .team-container .team-container__subcontainer section {
+    width: 227.08px;
+    height: 520.59px;
+    /* два действия выше не обязательны, если не убирать отступы в картинках */
+  }
+  .team-container .team-container__subcontainer section h5 {
+    font-size: 18px;
+    color: #2D3033;
+    height: 25.23px;
+    margin-top: 25.23px;
+  }
+  .team-container .team-container__subcontainer section p:first-of-type {
+    font-size: 14px;
+    height: 16px;
+    margin-top: 4.6px;
+  }
+  .team-container .team-container__subcontainer section p:last-of-type {
+    font-size: 14px;
+    height: 128px;
+    margin: 22.45px 0 39.2px 0;
+  }
+  .team-container .team-container__subcontainer section img {
+    display: inline-flex;
+  }
+  .team-container .team-container__subcontainer section img:first-of-type {
+    width: 227.08px;
+    height: 227.08px;
+  }
+  .team-container .team-container__subcontainer section img:not(:first-of-type) {
+    width: 32.8px;
+    height: 32.8px;
+  }
+  .team-container .team-container__subcontainer section img:nth-of-type(3) {
+    margin: 0 4.21px 0 5.05px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .team-container .team-container__subcontainer {
+    width: 280px;
+    height: 2252px;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+  }
+  .team-container .team-container__subcontainer section {
+    width: 280px;
+    height: 521px;
+    /* два действия выше не обязательны, если не убирать отступы в картинках */
+  }
+  .team-container .team-container__subcontainer section h5 {
+    font-size: 18px;
+    height: 25.25px;
+    margin-top: 25.25px;
+  }
+  .team-container .team-container__subcontainer section p:first-of-type {
+    font-size: 14px;
+    height: 16px;
+    margin-top: 4.61px;
+  }
+  .team-container .team-container__subcontainer section p:last-of-type {
+    font-size: 14px;
+    height: 96px;
+    margin: 38.49px 0 55.15px 0;
+  }
+  .team-container .team-container__subcontainer section img {
+    display: inline-flex;
+  }
+  .team-container .team-container__subcontainer section img:first-of-type {
+    width: 280px;
+    height: 227.25px;
+  }
+  .team-container .team-container__subcontainer section img:not(:first-of-type) {
+    width: 39.61px;
+    height: 39.61px;
+  }
+  .team-container .team-container__subcontainer section img:nth-of-type(3) {
+    margin: 0 5.08px 0 6.09px;
+  }
 }/*# sourceMappingURL=team.css.map */

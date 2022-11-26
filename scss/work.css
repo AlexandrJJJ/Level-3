@@ -1,5 +1,9 @@
 .work-container {
   width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .work-container .work-container__subcontainer {
   height: 678px;
@@ -44,4 +48,76 @@
 .work-container .work-container__subcontainer .work-container__img:hover div {
   display: block;
   opacity: 0.8;
+}
+
+@media screen and (min-width: 480px) and (max-width: 1023px) {
+  .work-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .work-container .work-container__subcontainer {
+    height: 459.78px;
+  }
+  .work-container .work-container__subcontainer .work-container__img {
+    width: 256.34px;
+    height: 230.57px;
+  }
+  .work-container .work-container__subcontainer .work-container__img img {
+    width: 256.34px;
+    height: 230.57px;
+  }
+  .work-container .work-container__subcontainer .work-container__img h5 {
+    height: 40.69px;
+    font-size: 18px;
+    line-height: 40.69px;
+    margin-top: 74.6px;
+  }
+  .work-container .work-container__subcontainer .work-container__img h6 {
+    height: 16px;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 86.47px;
+  }
+  .work-container .work-container__subcontainer .work-container__img div {
+    width: 256.34px;
+    height: 230.57px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .work-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .work-container .work-container__subcontainer {
+    width: 320px;
+    height: 576px;
+    grid-template-rows: repeat(4, 2fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .work-container .work-container__subcontainer .work-container__img {
+    width: 160px;
+    height: 144px;
+  }
+  .work-container .work-container__subcontainer .work-container__img img {
+    width: 160px;
+    height: 144px;
+  }
+  .work-container .work-container__subcontainer .work-container__img h5 {
+    height: 25.41px;
+    font-size: 18px;
+    line-height: 25.41px;
+    margin-top: 46.59px;
+  }
+  .work-container .work-container__subcontainer .work-container__img h6 {
+    height: 16px;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 51.37px;
+  }
+  .work-container .work-container__subcontainer .work-container__img div {
+    width: 160px;
+    height: 144px;
+  }
 }/*# sourceMappingURL=work.css.map */

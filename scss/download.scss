@@ -1,11 +1,13 @@
 .download-container{
     width: 100%;
     margin-top: 114px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     .download-container__subcontainer{
         width: 1170px;
         height: 224px;
-        margin: 0 auto;
         h3{
             height: 70px;
             font-weight: 500;
@@ -34,12 +36,80 @@
             color: #FFFFFF;
             display: block;
             margin: 0 auto;
+            border: none;
             &:hover{
                 background: #E71414;
             }
             &:active{
                 background: #FF4343;
                 box-shadow: 4px 4px 30px #FF4343;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1023px){
+    .download-container{
+        margin-top: 77.51px;
+    
+        .download-container__subcontainer{
+            width: 984px;
+            height: 204px;
+            h3{
+                height: 60px;
+                font-size: 24px;
+                line-height: 60px;
+            }
+            h5{
+                height: 16px;
+                font-size: 14px;
+                margin-bottom: 45.71px;
+            }
+            button{
+                width: 314px;
+                font-size: 18px;
+                text-align: center;
+                &:hover{
+                }
+                &:active{
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 479px){
+    .download-container{
+        margin-top: 34.51px;
+    
+        .download-container__subcontainer{
+            width: 280px;
+            height: 204px;
+            h3{
+                width: 280px;
+                height: 80px;
+                font-size: 18px;
+                line-height: 21px;
+                margin-bottom: 3px;
+                display: flex;
+                align-items: center;
+                text-align: center;     
+            }
+            h5{
+                height: 30px;
+                font-size: 13px;
+                margin-bottom: 13.42px;
+            }
+            button{
+                width: 280px;
+                height: 77.58px;
+                background: #FF4343;
+                font-size: 18px;
+                line-height: 77.58px;
+                &:hover{
+                }
+                &:active{
+                }
             }
         }
     }
