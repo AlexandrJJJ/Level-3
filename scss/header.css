@@ -71,6 +71,7 @@
   color: #FFFFFF;
   margin: 0 auto;
   cursor: pointer;
+  border: none;
 }
 .header-container .header-container__subcontainer button:not(nav button):hover {
   background: #E71414;

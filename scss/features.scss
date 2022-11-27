@@ -1,10 +1,13 @@
 .features-container{
     width: 100%;
     height: 100vh;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
 
     .features-container__subcontainer{
         width: 1170px;
-        height: 717px;
+        // height: 717px;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
@@ -78,7 +81,7 @@
 
 @media screen and (max-width: 479px){
     .features-container{
-
+        height: fit-content;
         .features-container__subcontainer{
             width: 280.84px;
             height: 1542.15px;

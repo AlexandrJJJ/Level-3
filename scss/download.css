@@ -36,6 +36,7 @@
   color: #FFFFFF;
   display: block;
   margin: 0 auto;
+  cursor: pointer;
   border: none;
 }
 .download-container .download-container__subcontainer button:hover {

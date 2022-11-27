@@ -81,6 +81,7 @@
   color: #FFFFFF;
   margin: 0 auto;
   cursor: pointer;
+  border: none;
 }
 .header-container .header-container__subcontainer button:not(nav button):hover {
   background: #E71414;
@@ -170,7 +171,6 @@
 }
 .features-container .features-container__subcontainer {
   width: 1170px;
-  height: 717px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -229,6 +229,11 @@
   }
 }
 @media screen and (max-width: 479px) {
+  .features-container {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
   .features-container .features-container__subcontainer {
     width: 280.84px;
     height: 1542.15px;
@@ -692,6 +697,7 @@
   color: #FFFFFF;
   display: block;
   margin: 0 auto;
+  cursor: pointer;
   border: none;
 }
 .download-container .download-container__subcontainer button:hover {
